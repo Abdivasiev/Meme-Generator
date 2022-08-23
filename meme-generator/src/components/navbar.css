@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+.nav {
+  height: 65px;
+  left: 0;
+  top: 0;
+  width: 550px;
+  background: rgb(2, 0, 36);
+  background-image: linear-gradient(
+    to right bottom,
+    #08ae7f,
+    #38bf72,
+    #61ce5d,
+    #8ddb41,
+    #bce610
+  );
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-brand--image {
+  height: 100%;
+  margin-right: 7px;
+}
+
+.nav-brand--title {
+  font-weight: 700;
+  font-size: 1.3rem; /* 21px*/
+  margin-right: auto;
+}
+
+.nav--subtitle {
+  font-weight: 500;
+  font-size: 0.75rem; /*12px*/
+}
