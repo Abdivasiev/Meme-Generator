@@ -15,11 +15,11 @@ body {
   background: rgb(2, 0, 36);
   background-image: linear-gradient(
     to right bottom,
-    #08ae7f,
-    #38bf72,
-    #61ce5d,
-    #8ddb41,
-    #bce610
+    #676969,
+    #383d3a,
+    #acadac,
+    #585858,
+    #e2e2e1
   );
   color: white;
   display: flex;
